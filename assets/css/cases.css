@@ -1,0 +1,83 @@
+.cases{
+    width: auto;
+	margin: auto auto;
+	padding: 50px 0;
+    text-align: center;
+}
+.cases li {
+	display: inline-block;
+	text-align: center;
+	width: 80%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: solid 2px #2f1a1a;
+	border-radius: 5px;
+}
+
+.imagem__cliente{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.imagem__contato{
+    width: 400px;
+    height: 400px;
+    border-top-right-radius: 100px;
+}
+
+.container__contato{
+    display: flex;
+    justify-content: center;
+    margin: 0% 15% 5rem 15%;
+
+    
+}
+
+.contato__titulo{
+    font-size: 30px;
+    color:#62247d;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.contato__texto{
+    font-size: 20px;
+    color:#62247d;
+    padding-bottom: 1rem;
+}
+.container__cases{
+    align-items: center;
+    padding: 5rem;
+}
+
+.cases__centralizar{
+    text-align: center;
+}
+
+.cases__titulo--maior{
+    font-size: 45px;
+}
+
+.cases__titulo--maior-borda{
+    display: inline-block;
+    border-bottom:  solid 2px #62247d;
+    box-sizing: border-box;
+    
+}
+
+.cases__texto{
+    font-size: 18px;
+	margin-top: 10px;
+    color:#62247d;
+    margin-bottom: 3rem;
+}
+
+.cases__autor{
+    font-size: 18px;
+	margin-top: 10px;
+    color:#310645;
+    margin-bottom: 1rem;
+}

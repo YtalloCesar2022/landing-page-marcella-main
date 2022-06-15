@@ -1,0 +1,18 @@
+:root{
+    --fonte-principal: 'Inter';
+    --branco-principal: #FFFFFF;
+    --cor-de-fundo: #b6bcce;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul-efeito: #3c92fa;
+    --border-menu: #95999C;
+    --fonte-cor-link: #2e3336;
+    --fonte-peso-link: 30px;
+    --fonte-peso-titulo: 50px;
+    --fonte-peso-texto: 25px;
+    --largura-tela-mobile: 320px 480px;
+    --largura-tela-tablet: 481px 768px;
+    --largura-tela-desktop-p: 769px 1024px;
+    --largura-tela-desktop-m: 1025px 1200px;
+    --largura-tela-desktop-g: 1201px;
+
+}

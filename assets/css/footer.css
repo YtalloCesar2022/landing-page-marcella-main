@@ -1,0 +1,37 @@
+.container__link{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.link__facebook{
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../../assets/img/facebook.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 1rem;
+    opacity: 90%;
+}
+
+.link__instagram{
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../../assets/img/instagran.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 90%;
+}
+
+.copyright{
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+    border-top: solid 0.5px #785a5a;
+    color:#62247d;
+}

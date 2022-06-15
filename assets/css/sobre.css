@@ -1,0 +1,43 @@
+.container__sobre{
+    padding: 2rem 0 4rem 0;
+    
+}
+
+.sobre{
+    display: inline-block;
+    position: relative;
+    background-image: url(../../assets/img/sobre.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 50%;
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 95vh;
+    width: 85vw;
+    filter: saturate(200%) brightness(80%);
+    color: var(--branco-principal);
+}
+
+
+.sobre__titulo{
+    display: inline;
+    font-size: var(--fonte-peso-titulo);
+    font-weight: 700;
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    width: 70%;
+    box-sizing: border-box;
+  
+    
+}
+
+.sobre__texto{
+    display: inline;
+    font-size: var(--fonte-peso-texto);
+    position: absolute;
+    top: 330px;
+    left: 180px;
+    width: 70%;
+    box-sizing: border-box;
+}

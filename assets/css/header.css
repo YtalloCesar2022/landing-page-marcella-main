@@ -1,0 +1,30 @@
+.container__menu{
+    padding: 2rem;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.imagem__logo{
+    height: 20%;
+    width: 20%;
+    padding-left: 2rem;
+    padding-right: 20rem;
+}
+
+.menu__link{
+    font-family: var(--fonte-principal);
+    font-size: var(--fonte-peso-link);
+    color: var(--fonte-cor-link);
+    padding: 0 1rem;
+}
+
+.menu__link:hover{
+    border-bottom: 4px solid #aa57cd;
+}
+
+.menu__link--border{
+    border-right: 1px solid  var(--border-menu);
+}
